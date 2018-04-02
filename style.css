@@ -1,4 +1,23 @@
 body {
   margin: 0 auto;
   padding: 0;
+  font-family: 'Raleway', sans-serif;
+}
+
+nav {
+  background: #4E7950;
+}
+
+.header-bar {
+  width: 70px;
+  height: 4px;
+  background: #000000;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 40px;
+}
+
+.project-screenshot {
+  width: 600px;
+  height: auto;
 }

@@ -2,13 +2,152 @@
 <html>
   <head>
     <title>Hi, I'm Scott</title>
+    <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/css/materialize.min.css">
     <link rel="stylesheet" type="text/css" href="style.css">
-    <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1.0"/>
   </head>
+
 <body>
-  <h1>Hi, I'm Scott</h1>
-  
+  <nav>
+    <div class="nav-wrapper">
+      <a href="#!" class="brand-logo">SCOTT MOLSNESS</a>
+      <a href="#" data-target="mobilenav" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+      <ul class="right hide-on-med-and-down">
+        <li class="navlink"><a href="sass.html">ABOUT</a></li>
+        <li class="navlink"><a href="badges.html">MY WORK</a></li>
+        <li class="navlink"><a href="collapsible.html">SKILLS</a></li>
+        <li class="navlink"><a href="mobile.html">CONTACT</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <ul class="sidenav" id="mobilenav">
+    <li><a href="sass.html">ABOUT</a></li>
+    <li><a href="badges.html">MY WORK</a></li>
+    <li><a href="collapsible.html">SKILLS</a></li>
+    <li><a href="mobile.html">CONTACT</a></li>
+  </ul>
+
+  <section id="about">
+    <div class="container">
+      <div class="row">
+        <div class="col s12">
+          <div class="row">
+            <h2 class="center-align">ABOUT</h2>
+            <div class="header-bar"></div>
+            <div class="center" id="about-text">
+              <p>
+                Hi, I'm Scott. I enjoy building websites that integrate seamless function, attractive design and clear purpose.
+                My approach to web development is to analyze a problem, think of a goal outcome, then create the best possible solution -
+                of course having fun along the way.
+              </p>
+              <p>
+                Learning foreign languages has always been a passion of mine, I love to travel and explore new places. I also
+                spend a lot of time outdoors, whether it's hiking, camping, running or gardening.
+              </p>
+              <img src="img/me.png">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="work">
+    <div class="container">
+      <div class="row">
+        <div class="col s12">
+          <h2 class="center-align">MY WORK</h2>
+          <div class="header-bar"></div>
+          <div class="row">
+            <div class="col s6">
+              <h4>venturesome</h4>
+              <p>
+                A travel-planning app that allows users to create trip boards and save links to Yelp businesses they would
+                like to visit.
+              </p>
+              <h6><a href="http://venturesome.herokuapp.com/">Visit venturesome here</a></h6>
+            </div>
+            <div class="col s6">
+              <img class="project-screenshot" src="img/venturesome.png">
+            </div>
+          </div>
+          <div class="row">
+            <div class="col s6">
+              <h4>Apocalyprep</h4>
+              <h6>(Group collaboration)</h6>
+              <p>
+                Disaster-preparedness made easy. This app allows users to search for severe weather alerts using the NOAA weather
+                alert API, then create a checklist of supplies for their own emergency kit.
+              </p>
+              <h6><a href="http://apocalyprep.herokuapp.com/">Visit Apocalyprep here</a></h6>
+            </div>
+            <div class="col s6">
+              <img class="project-screenshot" src="img/venturesome.png">
+            </div>
+          </div>
+          <div class="row">
+            <div class="col s6">
+              <h4>Mancala</h4>
+              <p>
+                A classic board game in which stones are moved around the board in counter-clockwise fashion. The player
+                who collects the most stones wins.
+              </p>
+              <h6><a href="http://scottmolsness.com/mancala/">Play Mancala here</a></h6>
+            </div>
+            <div class="col s6">
+              <img class="project-screenshot" src="img/venturesome.png">
+            </div>
+          </div>
+          <div class="row">
+            <div class="col s6">
+              <h4>Dragons 'R Us'</h4>
+              <h6>(Pair hackathon project)</h6>
+              <p>
+                This prehistoric themed e-commerce site allows was created during a 24-hour hackathon event. Users can create an
+                account, view information about dragons available for adoption and read about the history of the company.
+              </p>
+              <h6><a href="#">Visit Dragons 'R Us here</a></h6>
+            </div>
+            <div class="col s6">
+              <img class="project-screenshot" src="img/venturesome.png">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="skills">
+    <div class="container">
+      <div class="row">
+        <div class="col s12">
+          <div class="row">
+            <h2 class="center-align">SKILLS</h2>
+            <div class="header-bar"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <div class="container">
+      <div class="row">
+        <div class="col s12">
+          <div class="row">
+            <h2 class="center-align">CONTACT</h2>
+            <div class="header-bar"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js"></script>
 <script src="script.js"></script>
 </body>
