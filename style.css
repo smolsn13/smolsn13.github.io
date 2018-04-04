@@ -2,9 +2,16 @@ body {
   margin: 0 auto;
   padding: 0;
   font-family: 'Raleway', sans-serif;
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
 }
 
 nav {
+  background: #4E7950;
+}
+
+.page-footer {
   background: #4E7950;
 }
 
@@ -20,4 +27,8 @@ nav {
 .project-screenshot {
   width: 600px;
   height: auto;
+}
+
+main {
+  flex: 1 0 auto;
 }
