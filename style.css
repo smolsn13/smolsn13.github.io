@@ -36,3 +36,12 @@ main {
 .brand-logo {
   left: 2%;
 }
+
+.empty {
+  line-height: 1px;
+}
+
+form {
+  border: solid black 1px;
+  padding: 20px;
+}
