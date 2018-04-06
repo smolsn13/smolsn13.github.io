@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Hi, I'm Scott</title>
+    <title>Scott Molsness - Developer</title>
     <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.9/css/all.css" integrity="sha384-5SOiIsAziJl6AWe0HWRKTXlfcSHKmYV4RBF18PPJ173Kzn7jzMyFuTtk8JA7QQG1"
       crossorigin="anonymous">
@@ -24,40 +24,48 @@
       </ul>
     </div>
   </nav>
-
+<!-- MOBILE NAV -->
   <ul class="sidenav" id="mobilenav">
     <li><a href="#about">ABOUT</a></li>
     <li><a href="#mywork">MY WORK</a></li>
     <li><a href="#skills">SKILLS</a></li>
     <li><a href="#contact">CONTACT</a></li>
   </ul>
-
+<!-- ABOUT ME -->
   <section id="about">
     <div class="container">
       <div class="row">
         <div class="col s12">
-          <div class="row">
-            <a name="about"></a>
-            <h2 class="center-align">ABOUT</h2>
-            <div class="header-bar"></div>
-            <div class="center" id="about-text">
-              <p>
-                Hi, I'm Scott. I enjoy building websites that integrate seamless function, attractive design and clear purpose.
-                My approach to web development is to analyze a problem, think of a goal outcome, then create the best possible solution -
-                of course having fun along the way.
-              </p>
-              <p>
-                Learning foreign languages has always been a passion of mine, I love to travel and explore new places. I also
-                spend a lot of time outdoors, whether it's hiking, camping, running or gardening.
-              </p>
-              <img src="img/me.png">
+          <a name="about"></a>
+          <h2 class="center">ABOUT</h2>
+          <div class="header-bar"></div>
+        </div>
+      </div>
+      <div class="row valign-wrapper">
+        <div class="col s6">
+          <div class="center" id="about-text">
+            <p>
+              Hi, I'm Scott. I enjoy building websites that integrate seamless function, attractive design and clear purpose.
+              My approach to web development is to analyze a problem, think of a goal outcome, then create the best possible solution -
+              of course having fun along the way.
+            </p>
+            <p>
+              Learning foreign languages has always been a passion of mine, I love to travel and explore new places. I also
+              spend a lot of time outdoors, whether it's hiking, camping, running or gardening.
+            </p>
+          </div>
+        </div>
+        <div class="col s6">
+          <div class="octagon">
+            <div class="octa1">
+              <img src="img/me.png" alt="" width="320" height="316">
             </div>
           </div>
         </div>
       </div>
     </div>
   </section>
-
+<!-- PROJECTS -->
   <section id="work">
     <div class="container">
       <div class="row">
@@ -65,7 +73,8 @@
           <a name="mywork"></a>
           <h2 class="center-align">MY WORK</h2>
           <div class="header-bar"></div>
-          <div class="row">
+            <!-- PROJECT 1 -->
+          <div class="row valign-wrapper">
             <div class="col s6">
               <h4>venturesome</h4>
               <p>
@@ -84,7 +93,8 @@
               <img class="project-screenshot" src="img/venturesome.png">
             </div>
           </div>
-          <div class="row">
+            <!-- PROJECT 2 -->
+          <div class="row valign-wrapper">
             <div class="col s6">
               <h4>Apocalyprep</h4>
               <h6>(Group collaboration)</h6>
@@ -104,7 +114,8 @@
               <img class="project-screenshot" src="img/apocalyprep.png">
             </div>
           </div>
-          <div class="row">
+            <!-- PROJECT 3 -->
+          <div class="row valign-wrapper">
             <div class="col s6">
               <h4>Mancala</h4>
               <p>
@@ -121,7 +132,8 @@
               <img class="project-screenshot" src="img/mancala.png">
             </div>
           </div>
-          <div class="row">
+            <!-- PROJECT 4 -->
+          <div class="row valign-wrapper">
             <div class="col s6">
               <h4>Dragons 'R Us</h4>
               <h6>(Pair hackathon project)</h6>
@@ -168,6 +180,7 @@
             <div class="header-bar"></div>
         </div>
       </div>
+      <!-- EMAIL FORM -->
       <div class="row center">
         <div class="col s2 empty"></div>
         <div class="col s8">
@@ -175,10 +188,12 @@
           <form action="https://formspree.io/smolsness@gmail.com" method="POST">
             <input type="text" name="name" placeholder="Enter your name">
             <input type="email" name="_replyto" placeholder="Enter your email">
+            <textarea name="message-text" placeholder="Enter your message here"></textarea>
             <input class="btn" type="submit" value="Send">
           </form>
-          <a href="https://github.com/smolsn13"><i class="fab fa-github fa-3x"></i></a>
-          <a href="https://www.linkedin.com/in/scottmolsness"><i class="fab fa-linkedin fa-3x"></i></a>
+          <!-- LINKS -->
+          <a href="https://github.com/smolsn13"><i class="fab fa-github fa-3x white black-text"></i></a>
+          <a href="https://www.linkedin.com/in/scottmolsness"><i class="fab fa-linkedin fa-3x white black-text"></i></a>
         </div>
         <div class="col s2"></div>
       </div>

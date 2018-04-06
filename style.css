@@ -25,7 +25,7 @@ nav {
 }
 
 .project-screenshot {
-  width: 600px;
+  width: 30em;
   height: auto;
 }
 
@@ -37,11 +37,37 @@ main {
   left: 2%;
 }
 
-.empty {
-  line-height: 1px;
+form {
+  padding: 20px;
 }
 
-form {
-  border: solid black 1px;
-  padding: 20px;
+textarea {
+  margin-top: 10px;
+  height: 10em;
+}
+
+.octagon, .octagon div {
+  margin: 0 auto;
+  transform-origin: 50% 50%;
+  overflow: hidden;
+  width: 300px;
+  height: 300px;
+}
+.octagon, .octagon div {
+  width: 270px;
+  height: 270px;
+}
+.octagon {
+  transform: rotate(45deg);
+}
+.octa1 {
+  transform: rotate(-45deg);
+}
+
+.fab {
+  margin: 15px;
+}
+
+.btn {
+  margin-top: 30px;
 }
