@@ -5,6 +5,8 @@ body {
   display: flex;
   min-height: 100vh;
   flex-direction: column;
+  background-image: url("img/background.jpg");
+  background-size: cover;
 }
 
 nav {
@@ -71,3 +73,22 @@ textarea {
 .btn {
   margin-top: 30px;
 }
+
+.skills {
+  padding: 0 10px;
+  border-right: solid 1px black;
+}
+
+.footerlink {
+  padding: 0 10px;
+  border-right: solid 1px;
+}
+
+.footerlinklast {
+  padding: 0 10px;
+}
+
+.project {
+  margin-bottom: 60px;
+}
+

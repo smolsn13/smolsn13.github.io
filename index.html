@@ -1,8 +1,9 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Scott Molsness - Developer</title>
+    <title>scottmolsness.com</title>
     <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="img/s-icon.png" type="image/png">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.9/css/all.css" integrity="sha384-5SOiIsAziJl6AWe0HWRKTXlfcSHKmYV4RBF18PPJ173Kzn7jzMyFuTtk8JA7QQG1"
       crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons"rel="stylesheet">
@@ -14,24 +15,28 @@
 <body>
   <nav>
     <div class="nav-wrapper">
-      <a href="#!" class="brand-logo">SCOTT MOLSNESS</a>
+      <a href="#!" class="brand-logo grey-text text-lighten-3">SCOTT MOLSNESS</a>
       <a href="#" data-target="mobilenav" class="sidenav-trigger"><i class="material-icons">menu</i></a>
       <ul class="right hide-on-med-and-down">
-        <li class="navlink"><a href="#about">ABOUT</a></li>
-        <li class="navlink"><a href="#mywork">MY WORK</a></li>
-        <li class="navlink"><a href="#skills">SKILLS</a></li>
-        <li class="navlink"><a href="#contact">CONTACT</a></li>
-        <li class="navlink"><a href="img/SMolsness_Resume.pdf" target="_blank">RESUME</a></li>
+        <li class="navlink grey-text text-lighten-3"><a href="#about">ABOUT</a></li>
+        <li class="navlink grey-text text-lighten-3"><a href="#mywork">MY WORK</a></li>
+        <li class="navlink grey-text text-lighten-3"><a href="#skills">SKILLS</a></li>
+        <li class="navlink grey-text text-lighten-3"><a href="#contact">CONTACT</a></li>
+        <li class="navlink grey-text text-lighten-3"><a href="img/SMolsness_Resume.pdf" target="_blank">RESUME</a></li>
       </ul>
     </div>
   </nav>
 <!-- MOBILE NAV -->
-  <ul class="sidenav" id="mobilenav">
+  <ul class="sidenav grey-text text-lighten-3" id="mobilenav">
     <li><a href="#about">ABOUT</a></li>
     <li><a href="#mywork">MY WORK</a></li>
     <li><a href="#skills">SKILLS</a></li>
     <li><a href="#contact">CONTACT</a></li>
+    <li><a href="img/SMolsness_Resume.pdf" target="_blank">RESUME</a></li>
   </ul>
+
+
+  
 <!-- ABOUT ME -->
   <section id="about">
     <div class="container">
@@ -46,7 +51,7 @@
         <div class="col s6">
           <div class="center" id="about-text">
             <p>
-              Hi, I'm Scott. I enjoy building websites that integrate seamless function, attractive design and clear purpose.
+              Hi, I'm Scott. I'm a full stack web developer. I enjoy building websites that integrate seamless function, attractive design and clear purpose.
               My approach to web development is to analyze a problem, think of a goal outcome, then create the best possible solution -
               of course having fun along the way.
             </p>
@@ -59,7 +64,7 @@
         <div class="col s6">
           <div class="octagon">
             <div class="octa1">
-              <img src="img/me.png" alt="" width="320" height="316">
+              <img src="img/me.png" alt="" width="300" height="300">
             </div>
           </div>
         </div>
@@ -75,7 +80,7 @@
           <h2 class="center-align">MY WORK</h2>
           <div class="header-bar"></div>
             <!-- PROJECT 1 -->
-          <div class="row valign-wrapper">
+          <div class="row valign-wrapper project">
             <div class="col s6">
               <h4>venturesome</h4>
               <p>
@@ -91,11 +96,11 @@
               <a href="https://github.com/smolsn13/venturesome"><span>GitHub</span></a>
             </div>
             <div class="col s6">
-              <img class="project-screenshot" src="img/venturesome.png">
+              <img class="project-screenshot responsive-img" src="img/venturesome.png">
             </div>
           </div>
             <!-- PROJECT 2 -->
-          <div class="row valign-wrapper">
+          <div class="row valign-wrapper project">
             <div class="col s6">
               <h4>Apocalyprep</h4>
               <h6>(Group collaboration)</h6>
@@ -112,11 +117,11 @@
               <a href="https://github.com/smolsn13/apocalyprep"><span>GitHub</span></a>
             </div>
             <div class="col s6">
-              <img class="project-screenshot" src="img/apocalyprep.png">
+              <img class="project-screenshot responsive-img" src="img/apocalyprep.png">
             </div>
           </div>
             <!-- PROJECT 3 -->
-          <div class="row valign-wrapper">
+          <div class="row valign-wrapper project">
             <div class="col s6">
               <h4>Mancala</h4>
               <p>
@@ -130,11 +135,11 @@
               <a href="https://github.com/smolsn13/mancala"><span>GitHub</span></a>
             </div>
             <div class="col s6">
-              <img class="project-screenshot" src="img/mancala.png">
+              <img class="project-screenshot responsive-img" src="img/mancala.png">
             </div>
           </div>
             <!-- PROJECT 4 -->
-          <div class="row valign-wrapper">
+          <div class="row valign-wrapper project">
             <div class="col s6">
               <h4>Dragons 'R Us</h4>
               <h6>(Pair hackathon project)</h6>
@@ -150,7 +155,7 @@
               <a href="https://github.com/smolsn13/dragon-react"><span>GitHub</span></a>
             </div>
             <div class="col s6">
-              <img class="project-screenshot" src="img/dragons.png">
+              <img class="project-screenshot responsive-img" src="img/dragons.png">
             </div>
           </div>
         </div>
@@ -162,10 +167,60 @@
     <div class="container">
       <div class="row">
         <div class="col s12">
-          <div class="row">
             <a name="skills"></a>
             <h2 class="center-align">SKILLS</h2>
             <div class="header-bar"></div>
+        </div>
+      </div>
+      <!-- TECHNOLOGIES -->
+      <div class="row center-align">
+        <div class="col s12">
+            <div>
+              <p>
+                <strong>Languages:</strong>
+                <span class="skills">JavaScript</span>
+                <span class="skills">Python</span>
+                <span class="skills">CSS</span>
+                <span class="skills">HTML</span>
+              </p>
+              <p>
+                <strong>Frameworks:</strong>
+                <span class="skills">Node.js</span>
+                <span class="skills">Express.js</span>
+                <span class="skills">Django</span>
+              </p>
+              <p>
+                <strong>Libraries:</strong>
+                <span class="skills">React.js</span>
+                <span class="skills">Redux</span>
+                <span class="skills">Bootstrap</span>
+                <span class="skills">Materialize</span>
+                <span class="skills">JQuery</span>
+              </p>
+              <p>
+                <strong>Data:</strong>
+                <span class="skills">MongoDB</span>
+                <span class="skills">Mongoose</span>
+                <span class="skills">PostgreSQL</span>
+                <span class="skills">Sequelize</span>
+              </p>
+              <p>
+                <strong>Design:</strong>
+                <span class="skills">React-Materialize</span>
+                <span class="skills">React-Flexbox-Grid</span>
+              </p>
+              <p>
+                <strong>Additional Technologies:</strong>
+                <span class="skills">Git</span>
+                <span class="skills">GitHub</span>
+                <span class="skills">RESTful APIs</span>
+                <span class="skills">HTTP</span>
+                <span class="skills">AJAX</span>
+                <span class="skills">JSON</span>
+                <span class="skills">Heroku</span>
+                <span class="skills">Authentication</span>
+                <span class="skills">OAuth</span>
+              </p>
           </div>
         </div>
       </div>
@@ -190,11 +245,10 @@
             <input type="text" name="name" placeholder="Enter your name">
             <input type="email" name="_replyto" placeholder="Enter your email">
             <textarea name="message-text" placeholder="Enter your message here"></textarea>
-            <input class="btn" type="submit" value="Send">
+            <input class="btn blue" type="submit" value="Send">
           </form>
           <!-- LINKS -->
-          <a href="https://github.com/smolsn13"><i class="fab fa-github fa-3x white black-text"></i></a>
-          <a href="https://www.linkedin.com/in/scottmolsness"><i class="fab fa-linkedin fa-3x white black-text"></i></a>
+          
         </div>
         <div class="col s2"></div>
       </div>
@@ -203,9 +257,25 @@
 
   <footer class="page-footer">
     <div class="container">
-      <div class="row">
-        <div class="col s12 center-align">
+      <div class="row valign-wrapper">
+        <div class="col s4 left-align grey-text text-lighten-3">
           <p>© 2018 Scott Molsness. All Rights Reserved</p>
+        </div>
+        <div class="col s4 center-align">
+          <a href="https://github.com/smolsn13">
+            <i class="fab fa-github fa-3x grey-text text-lighten-3"></i>
+          </a>
+          <a href="https://www.linkedin.com/in/scottmolsness">
+            <i class="fab fa-linkedin fa-3x grey-text text-lighten-3"></i>
+          </a>
+        </div>
+        <div class="col s4 right-align">
+          <div>
+            <span><a class="grey-text text-lighten-3 footerlink" href="#about">About</a></span>
+            <span><a class="grey-text text-lighten-3 footerlink" href="#mywork">My Work</a></span>
+            <span><a class="grey-text text-lighten-3 footerlink" href="#skills">Skills</a></span>
+            <span><a class="grey-text text-lighten-3 footerlinklast" href="#contact">Contact</a></span>
+          </div>
         </div>
       </div>
     </div>
