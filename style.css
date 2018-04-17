@@ -1,3 +1,5 @@
+/* Page setup */
+
 body {
   margin: 0 auto;
   padding: 0;
@@ -9,12 +11,17 @@ body {
   background-size: cover;
 }
 
+main {
+  flex: 1 0 auto;
+}
+
+ /* Navbar */
 nav {
   background: #4E7950;
 }
 
-.page-footer {
-  background: #4E7950;
+.brand-logo {
+  left: 2%;
 }
 
 .header-bar {
@@ -26,28 +33,7 @@ nav {
   margin-bottom: 40px;
 }
 
-.project-screenshot {
-  width: 30em;
-  height: auto;
-}
-
-main {
-  flex: 1 0 auto;
-}
-
-.brand-logo {
-  left: 2%;
-}
-
-form {
-  padding: 20px;
-}
-
-textarea {
-  margin-top: 10px;
-  height: 10em;
-}
-
+/* About section */
 .octagon, .octagon div {
   margin: 0 auto;
   transform-origin: 50% 50%;
@@ -66,17 +52,42 @@ textarea {
   transform: rotate(-45deg);
 }
 
-.fab {
-  margin: 15px;
+/* Project section */
+.project-screenshot {
+  width: 30em;
+  height: auto;
+}
+
+.project {
+  margin-bottom: 60px;
+}
+
+/* Skills section */
+.btn {
+  margin-top: 30px;
+}
+
+/* Contact section */
+form {
+  padding: 20px;
+}
+
+textarea {
+  margin-top: 10px;
+  height: 10em;
 }
 
 .btn {
   margin-top: 30px;
 }
 
-.skills {
-  padding: 0 10px;
-  border-right: solid 1px black;
+/* Footer */
+.page-footer {
+  background: #4E7950;
+}
+
+.fab {
+  margin: 15px;
 }
 
 .footerlink {
@@ -88,10 +99,7 @@ textarea {
   padding: 0 10px;
 }
 
-.project {
-  margin-bottom: 60px;
-}
-
+/* Media queries */
 @media (max-width: 600px) {
   .flex-s {
     display: flex;
