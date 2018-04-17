@@ -92,3 +92,16 @@ textarea {
   margin-bottom: 60px;
 }
 
+@media (max-width: 600px) {
+  .flex-s {
+    display: flex;
+    flex-direction: column; /* Stack 2 divs */
+  }
+  .box-b {
+    margin-top: 30px;
+    order: 2; /* Move image down to next line */
+  }
+  .box-a {
+    margin-top: -30px;
+  }
+}

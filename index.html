@@ -18,11 +18,11 @@
       <a href="#!" class="brand-logo grey-text text-lighten-3">SCOTT MOLSNESS</a>
       <a href="#" data-target="mobilenav" class="sidenav-trigger"><i class="material-icons">menu</i></a>
       <ul class="right hide-on-med-and-down">
-        <li class="navlink grey-text text-lighten-3"><a href="#about">ABOUT</a></li>
-        <li class="navlink grey-text text-lighten-3"><a href="#mywork">MY WORK</a></li>
-        <li class="navlink grey-text text-lighten-3"><a href="#skills">SKILLS</a></li>
-        <li class="navlink grey-text text-lighten-3"><a href="#contact">CONTACT</a></li>
-        <li class="navlink grey-text text-lighten-3"><a href="img/SMolsness_Resume.pdf" target="_blank">RESUME</a></li>
+        <li class="navlink grey-text text-lighten-3 hoverable"><a href="#about">ABOUT</a></li>
+        <li class="navlink grey-text text-lighten-3 hoverable"><a href="#mywork">MY WORK</a></li>
+        <li class="navlink grey-text text-lighten-3 hoverable"><a href="#skills">SKILLS</a></li>
+        <li class="navlink grey-text text-lighten-3 hoverable"><a href="#contact">CONTACT</a></li>
+        <li class="navlink grey-text text-lighten-3 hoverable"><a href="img/SMolsness_Resume.pdf" target="_blank">RESUME</a></li>
       </ul>
     </div>
   </nav>
@@ -36,9 +36,9 @@
   </ul>
 
 
-  
+
 <!-- ABOUT ME -->
-  <section id="about">
+  <section id="about" class="scrollspy">
     <div class="container">
       <div class="row">
         <div class="col s12">
@@ -47,8 +47,8 @@
           <div class="header-bar"></div>
         </div>
       </div>
-      <div class="row valign-wrapper">
-        <div class="col s6">
+      <div class="row valign-wrapper flex-s">
+        <div class="col s12 m6 l6 box-a">
           <div class="center" id="about-text">
             <p>
               Hi, I'm Scott. I'm a full stack web developer. I enjoy building websites that integrate seamless function, attractive design and clear purpose.
@@ -61,10 +61,10 @@
             </p>
           </div>
         </div>
-        <div class="col s6">
+        <div class="col s12 m6 l6 box-b">
           <div class="octagon">
             <div class="octa1">
-              <img src="img/me.png" alt="" width="300" height="300">
+              <img class="myphoto responsive-img" src="img/me.png" alt="">
             </div>
           </div>
         </div>
@@ -72,7 +72,7 @@
     </div>
   </section>
 <!-- PROJECTS -->
-  <section id="work">
+  <section id="mywork" class="scrollspy">
     <div class="container">
       <div class="row">
         <div class="col s12">
@@ -89,7 +89,7 @@
               </p>
               <p>Technologies Used:
                 <br/>
-                 Javascript | jQuery | Node.js | Express | Sequelize | PostgreSQL | bcrypt | EJS | Materialize | HTML | CSS | 
+                 Javascript | jQuery | Node.js | Express | PostgreSQL | Sequelize | bcrypt | EJS | Materialize | HTML | CSS |
                  Yelp Fusion API
               </p>
               <a href="http://venturesome.herokuapp.com/"><span>Visit live site</span></a><span> | </span>
@@ -108,9 +108,9 @@
                 Disaster-preparedness made easy. This app allows users to search for severe weather alerts using the NOAA weather
                 alert API, then create a checklist of supplies for their own emergency kit.
               </p>
-              <p>Technologies Used: 
+              <p>Technologies Used:
                 <br />
-                React | Redux | Node.js | Express | MongoDB | Mongoose | JavaScript | axios | 
+                React | Redux | Node.js | Express | MongoDB | Mongoose | JavaScript | axios |
                 CSS | HTML | React-Materialize | React-Geocode | NOAA API
               </p>
               <a href="http://apocalyprep.herokuapp.com/"><span>Visit live site</span></a><span> | </span>
@@ -120,7 +120,27 @@
               <img class="project-screenshot responsive-img" src="img/apocalyprep.png">
             </div>
           </div>
-            <!-- PROJECT 3 -->
+            <!-- PROJECT 3-->
+          <div class="row valign-wrapper project">
+            <div class="col s6">
+              <h4>Shook</h4>
+              <h6>(Group collaboration)</h6>
+              <p>
+                This prehistoric themed e-commerce site allows was created during a 24-hour hackathon event. Users can create an
+                account, view information about dragons available for adoption and read about the history of the company.
+              </p>
+              <p>Technologies Used:
+                <br />
+                React | Django | Django Rest Framework | PostgreSQL | axios | JavaScript | jQuery | Python | CSS | HTML | React-Materialize
+              </p>
+              <a href="https://getshook.herokuapp.com/"><span>Visit live site</span></a><span> | </span>
+              <a href="https://github.com/smolsn13/Shook"><span>GitHub</span></a>
+            </div>
+            <div class="col s6">
+              <img class="project-screenshot responsive-img" src="img/shook.png">
+            </div>
+          </div>
+          <!-- PROJECT 4 -->
           <div class="row valign-wrapper project">
             <div class="col s6">
               <h4>Mancala</h4>
@@ -138,7 +158,7 @@
               <img class="project-screenshot responsive-img" src="img/mancala.png">
             </div>
           </div>
-            <!-- PROJECT 4 -->
+          <!-- PROJECT 5 -->
           <div class="row valign-wrapper project">
             <div class="col s6">
               <h4>Dragons 'R Us</h4>
@@ -148,8 +168,8 @@
                 account, view information about dragons available for adoption and read about the history of the company.
               </p>
               <p>Technologies Used:
-                <br /> 
-                React | Node.js | Express | MongoDB | Mongoose | axios | JavaScript | CSS | HTML | React-Materialize | React-Geocode
+                <br />
+                React | Node.js | Express | MongoDB | Mongoose | axios | JavaScript | CSS | HTML | Bootstrap
               </p>
               <a href="https://dragonsrus.herokuapp.com/"><span>Visit live site</span></a><span> | </span>
               <a href="https://github.com/smolsn13/dragon-react"><span>GitHub</span></a>
@@ -158,12 +178,13 @@
               <img class="project-screenshot responsive-img" src="img/dragons.png">
             </div>
           </div>
+
         </div>
       </div>
     </div>
   </section>
 
-  <section id="skills">
+  <section id="skills" class="scrollspy">
     <div class="container">
       <div class="row">
         <div class="col s12">
@@ -186,7 +207,7 @@
               <p>
                 <strong>Frameworks:</strong>
                 <span class="skills">Node.js</span>
-                <span class="skills">Express.js</span>
+                <span class="skills">Express</span>
                 <span class="skills">Django</span>
               </p>
               <p>
@@ -199,10 +220,10 @@
               </p>
               <p>
                 <strong>Data:</strong>
-                <span class="skills">MongoDB</span>
-                <span class="skills">Mongoose</span>
                 <span class="skills">PostgreSQL</span>
                 <span class="skills">Sequelize</span>
+                <span class="skills">MongoDB</span>
+                <span class="skills">Mongoose</span>
               </p>
               <p>
                 <strong>Design:</strong>
@@ -227,7 +248,7 @@
     </div>
   </section>
 
-  <section id="contact">
+  <section id="contact" class="scrollspy">
     <div class="container">
       <div class="row center">
         <div class="col s12">
@@ -248,7 +269,7 @@
             <input class="btn blue" type="submit" value="Send">
           </form>
           <!-- LINKS -->
-          
+
         </div>
         <div class="col s2"></div>
       </div>
