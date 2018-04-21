@@ -1,22 +1,48 @@
 /* Page setup */
 
-body {
-  margin: 0 auto;
+html, body {
+  margin: 0;
   padding: 0;
-  font-family: 'Raleway', sans-serif;
-  display: flex;
-  min-height: 100vh;
-  flex-direction: column;
-  background-image: url("img/background.jpg");
-  background-size: cover;
+  height: 100%;
+  width: 100%;
 }
 
-main {
-  flex: 1 0 auto;
+body {
+  font-family: 'Raleway', sans-serif;
+  /* display: flex; */
+  min-height: 100vh;
+  /* flex-direction: column; */
+  /* background-image: url("img/background.jpg");
+  background-size: cover; */
 }
+
+.intro {
+  height: 100%;
+  width: 100%;
+  margin: auto;
+  background: url("img/forest.png") no-repeat 50% 50%;
+  background-size: cover;
+  display: table;
+  top: 0;
+}
+
+.intro .inner {
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+  padding-bottom: 25%;
+}
+
+.content {
+  max-width: 500px;
+}
+
+/* main {
+  flex: 1 0 auto;
+} */
 
  /* Navbar */
-nav {
+/* nav {
   background: #4E7950;
 }
 
@@ -31,10 +57,10 @@ nav {
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 40px;
-}
+} */
 
 /* About section */
-.octagon, .octagon div {
+/* .octagon, .octagon div {
   margin: 0 auto;
   transform-origin: 50% 50%;
   overflow: hidden;
@@ -50,25 +76,22 @@ nav {
 }
 .octa1 {
   transform: rotate(-45deg);
-}
+} */
 
 /* Project section */
-.project-screenshot {
+/* .project-screenshot {
   width: 30em;
   height: auto;
 }
 
 .project {
   margin-bottom: 60px;
-}
+} */
 
 /* Skills section */
-.btn {
-  margin-top: 30px;
-}
 
 /* Contact section */
-form {
+/* form {
   padding: 20px;
 }
 
@@ -79,10 +102,10 @@ textarea {
 
 .btn {
   margin-top: 30px;
-}
+} */
 
 /* Footer */
-.page-footer {
+/* .page-footer {
   background: #4E7950;
 }
 
@@ -97,19 +120,19 @@ textarea {
 
 .footerlinklast {
   padding: 0 10px;
-}
+} */
 
 /* Media queries */
-@media (max-width: 600px) {
+/* @media (max-width: 600px) {
   .flex-s {
     display: flex;
     flex-direction: column; /* Stack 2 divs */
-  }
+  /* }
   .box-b {
     margin-top: 30px;
     order: 2; /* Move image down to next line */
-  }
+  /* }
   .box-a {
     margin-top: -30px;
-  }
-}
+  } */
+/* } */
