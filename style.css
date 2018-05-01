@@ -98,7 +98,7 @@ main {
   background: #4E7950;
   height: 80px;
   z-index: 150;
-  box-shadow: 0 3px 4px rgba(0, 0, 0, 0.4)
+  box-shadow: 0 3px 4px rgba(0, 0, 0, 0.4);
   margin-bottom: -80px;
 }
 
