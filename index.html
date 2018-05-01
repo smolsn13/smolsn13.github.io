@@ -7,7 +7,7 @@
     <link href="https://use.fontawesome.com/releases/v5.0.9/css/all.css" rel="stylesheet" integrity="sha384-5SOiIsAziJl6AWe0HWRKTXlfcSHKmYV4RBF18PPJ173Kzn7jzMyFuTtk8JA7QQG1"
       crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons"rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans|Poppins|Raleway" rel="stylesheet">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/css/materialize.min.css" rel="stylesheet">
     <link href="style.css" rel="stylesheet" type="text/css">
     <link href="css/animate.css" rel="stylesheet">
@@ -18,19 +18,20 @@
   <section class="intro">
     <div class="inner">
       <div class="content">
-        <section class="os-animation" data-os-animation="bounceInUp" data-os-animation-delay="0s">
-          <h3>SCOTT MOLSNESS</h3>
+        <section class="os-animation headline" data-os-animation="bounceInUp" data-os-animation-delay="0s">
+          <h1>Hi, I'm Scott Molsness.</h1>
+          <p>I'm a full stack web developer. Thanks for visiting my site. Click the button below to see what I've been working on.</p>
         </section>
-        <section class="os-animation" data-os-animation="bounceInUp" data-os-animation-delay="0.1s">
-          <a class="mylink">See My Work</h3>
+        <section class="os-animation worklink" data-os-animation="bounceInUp" data-os-animation-delay="0.1s">
+          <a class="mylink" href="#mywork">See My Work</a>
         </section>
       </div>
     </div>
   </section>
 
-  <nav>
+  <nav class="main-nav">
     <div class="nav-wrapper">
-      <a href="#!" class="brand-logo grey-text text-lighten-3">SCOTT MOLSNESS</a>
+      <a href="#!" class="brand-logo grey-text text-lighten-3 hide-on-small-and-down">SCOTT MOLSNESS</a>
       <a href="#" data-target="mobilenav" class="sidenav-trigger"><i class="material-icons">menu</i></a>
       <ul class="right hide-on-med-and-down">
         <li class="navlink grey-text text-lighten-3 hoverable"><a href="#about">ABOUT</a></li>
@@ -51,253 +52,254 @@
   </ul>
 
 
+<main>
+  <!-- ABOUT ME -->
+    <section id="about" class="scrollspy">
+      <div class="container">
+        <div class="row">
+          <div class="col s12">
+            <a name="about"></a>
+            <h2 class="center">ABOUT</h2>
+            <div class="section-bar"></div>
+          </div>
+        </div>
+        <div class="row valign-wrapper flex-s">
+          <div class="col s12 m12 l6 box-a">
+            <div class="center" id="about-text">
+              <p>
+                Hi, I'm Scott. I'm a full stack web developer. I enjoy building websites that integrate seamless function, attractive design and clear purpose.
+                My approach to web development is to analyze a problem, think of a goal outcome, then create the best possible solution -
+                of course having fun along the way.
+              </p>
+              <p>
+                Learning foreign languages has always been a passion of mine, I love to travel and explore new places. I also
+                spend a lot of time outdoors, whether it's hiking, camping, running or gardening.
+              </p>
+            </div>
+          </div>
+          <div class="col s12 m12 l6 box-b">
+            <div class="octagon">
+              <div class="octa1">
+                <img class="myphoto responsive-img" src="img/me.png" alt="">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  <!-- PROJECTS -->
+    <section id="mywork" class="scrollspy">
+      <div class="container">
+        <div class="row">
+          <div class="col s12">
+            <a name="mywork"></a>
+            <h2 class="center-align">MY WORK</h2>
+            <div class="section-bar"></div>
+              <!-- PROJECT 1 -->
+            <div class="row valign-wrapper project flex-s">
+              <div class="col s12 m12 l6 box-a project-text">
+                <h4>venturesome</h4>
+                <p>
+                  A travel-planning app that allows users to create trip boards and save links to Yelp businesses they would
+                  like to visit.
+                </p>
+                <p>Technologies Used:
+                  <br/>
+                  Javascript | jQuery | Node.js | Express | PostgreSQL | Sequelize | bcrypt | EJS | Materialize | HTML | CSS |
+                  Yelp Fusion API
+                </p>
+                <a href="http://venturesome.herokuapp.com/"><span>Visit live site</span></a><span> | </span>
+                <a href="https://github.com/smolsn13/venturesome"><span>GitHub</span></a>
+              </div>
+              <div class="col s12 m12 l6 project-screenshot box-b">
+                <img class="responsive-img" src="img/venturesome.png">
+              </div>
+            </div>
+              <!-- PROJECT 2 -->
+            <div class="row valign-wrapper project flex-s">
+              <div class="col s12 m12 l6 box-a project-text">
+                <h4>Apocalyprep</h4>
+                <h6>(Group collaboration)</h6>
+                <p>
+                  Disaster-preparedness made easy. This app allows users to search for severe weather alerts using the NOAA weather
+                  alert API, then create a checklist of supplies for their own emergency kit.
+                </p>
+                <p>Technologies Used:
+                  <br />
+                  React | Redux | Node.js | Express | MongoDB | Mongoose | JavaScript | axios |
+                  CSS | HTML | React-Materialize | React-Geocode | NOAA API
+                </p>
+                <a href="http://apocalyprep.herokuapp.com/"><span>Visit live site</span></a><span> | </span>
+                <a href="https://github.com/smolsn13/apocalyprep"><span>GitHub</span></a>
+              </div>
+              <div class="col s12 m12 l6 project-screenshot box-b">
+                <img class="responsive-img" src="img/apocalyprep.png">
+              </div>
+            </div>
+              <!-- PROJECT 3-->
+            <div class="row valign-wrapper project flex-s">
+              <div class="col s12 m12 l6 box-a project-text">
+                <h4>Shook</h4>
+                <h6>(Group collaboration)</h6>
+                <p>
+                  This prehistoric themed e-commerce site allows was created during a 24-hour hackathon event. Users can create an
+                  account, view information about dragons available for adoption and read about the history of the company.
+                </p>
+                <p>Technologies Used:
+                  <br />
+                  React | Django | Django Rest Framework | PostgreSQL | axios | JavaScript | jQuery | Python | CSS | HTML | React-Materialize
+                </p>
+                <a href="https://getshook.herokuapp.com/"><span>Visit live site</span></a><span> | </span>
+                <a href="https://github.com/smolsn13/Shook"><span>GitHub</span></a>
+              </div>
+              <div class="col s12 m12 l6 project-screenshot box-b">
+                <img class="responsive-img" src="img/shook.png">
+              </div>
+            </div>
+            <!-- PROJECT 4 -->
+            <div class="row valign-wrapper project flex-s">
+              <div class="col s12 m12 l6 box-a project-text">
+                <h4>Mancala</h4>
+                <p>
+                  A classic board game in which stones are moved around the board in counter-clockwise fashion. The player
+                  who collects the most stones wins.
+                </p>
+                <p>Technologies Used:
+                  <br/> jQuery | JavaScript | CSS | HTML
+                </p>
+                <a href="http://scottmolsness.com/mancala/"><span>Visit live site</span></a><span> | </span>
+                <a href="https://github.com/smolsn13/mancala"><span>GitHub</span></a>
+              </div>
+              <div class="col s12 m12 l6 project-screenshot box-b">
+                <img class="responsive-img" src="img/mancala.png">
+              </div>
+            </div>
+            <!-- PROJECT 5 -->
+            <div class="row valign-wrapper project flex-s">
+              <div class="col s12 m12 l6 box-a project-text">
+                <h4>Dragons 'R Us</h4>
+                <h6>(Pair hackathon project)</h6>
+                <p>
+                  This prehistoric themed e-commerce site allows was created during a 24-hour hackathon event. Users can create an
+                  account, view information about dragons available for adoption and read about the history of the company.
+                </p>
+                <p>Technologies Used:
+                  <br />
+                  React | Node.js | Express | MongoDB | Mongoose | axios | JavaScript | CSS | HTML | Bootstrap
+                </p>
+                <a href="https://dragonsrus.herokuapp.com/"><span>Visit live site</span></a><span> | </span>
+                <a href="https://github.com/smolsn13/dragon-react"><span>GitHub</span></a>
+              </div>
+              <div class="col s12 m12 l6 project-screenshot box-b">
+                <img class="responsive-img" src="img/dragons.png">
+              </div>
+            </div>
 
-<!-- ABOUT ME -->
-  <section id="about" class="scrollspy">
-    <div class="container">
-      <div class="row">
-        <div class="col s12">
-          <a name="about"></a>
-          <h2 class="center">ABOUT</h2>
-          <div class="header-bar"></div>
-        </div>
-      </div>
-      <div class="row valign-wrapper flex-s">
-        <div class="col s12 m6 l6 box-a">
-          <div class="center" id="about-text">
-            <p>
-              Hi, I'm Scott. I'm a full stack web developer. I enjoy building websites that integrate seamless function, attractive design and clear purpose.
-              My approach to web development is to analyze a problem, think of a goal outcome, then create the best possible solution -
-              of course having fun along the way.
-            </p>
-            <p>
-              Learning foreign languages has always been a passion of mine, I love to travel and explore new places. I also
-              spend a lot of time outdoors, whether it's hiking, camping, running or gardening.
-            </p>
-          </div>
-        </div>
-        <div class="col s12 m6 l6 box-b">
-          <div class="octagon">
-            <div class="octa1">
-              <img class="myphoto responsive-img" src="img/me.png" alt="">
-            </div>
           </div>
         </div>
       </div>
-    </div>
-  </section>
-<!-- PROJECTS -->
-  <section id="mywork" class="scrollspy">
-    <div class="container">
-      <div class="row">
-        <div class="col s12">
-          <a name="mywork"></a>
-          <h2 class="center-align">MY WORK</h2>
-          <div class="header-bar"></div>
-            <!-- PROJECT 1 -->
-          <div class="row valign-wrapper project">
-            <div class="col s6">
-              <h4>venturesome</h4>
-              <p>
-                A travel-planning app that allows users to create trip boards and save links to Yelp businesses they would
-                like to visit.
-              </p>
-              <p>Technologies Used:
-                <br/>
-                 Javascript | jQuery | Node.js | Express | PostgreSQL | Sequelize | bcrypt | EJS | Materialize | HTML | CSS |
-                 Yelp Fusion API
-              </p>
-              <a href="http://venturesome.herokuapp.com/"><span>Visit live site</span></a><span> | </span>
-              <a href="https://github.com/smolsn13/venturesome"><span>GitHub</span></a>
-            </div>
-            <div class="col s6">
-              <img class="project-screenshot responsive-img" src="img/venturesome.png">
-            </div>
-          </div>
-            <!-- PROJECT 2 -->
-          <div class="row valign-wrapper project">
-            <div class="col s6">
-              <h4>Apocalyprep</h4>
-              <h6>(Group collaboration)</h6>
-              <p>
-                Disaster-preparedness made easy. This app allows users to search for severe weather alerts using the NOAA weather
-                alert API, then create a checklist of supplies for their own emergency kit.
-              </p>
-              <p>Technologies Used:
-                <br />
-                React | Redux | Node.js | Express | MongoDB | Mongoose | JavaScript | axios |
-                CSS | HTML | React-Materialize | React-Geocode | NOAA API
-              </p>
-              <a href="http://apocalyprep.herokuapp.com/"><span>Visit live site</span></a><span> | </span>
-              <a href="https://github.com/smolsn13/apocalyprep"><span>GitHub</span></a>
-            </div>
-            <div class="col s6">
-              <img class="project-screenshot responsive-img" src="img/apocalyprep.png">
-            </div>
-          </div>
-            <!-- PROJECT 3-->
-          <div class="row valign-wrapper project">
-            <div class="col s6">
-              <h4>Shook</h4>
-              <h6>(Group collaboration)</h6>
-              <p>
-                This prehistoric themed e-commerce site allows was created during a 24-hour hackathon event. Users can create an
-                account, view information about dragons available for adoption and read about the history of the company.
-              </p>
-              <p>Technologies Used:
-                <br />
-                React | Django | Django Rest Framework | PostgreSQL | axios | JavaScript | jQuery | Python | CSS | HTML | React-Materialize
-              </p>
-              <a href="https://getshook.herokuapp.com/"><span>Visit live site</span></a><span> | </span>
-              <a href="https://github.com/smolsn13/Shook"><span>GitHub</span></a>
-            </div>
-            <div class="col s6">
-              <img class="project-screenshot responsive-img" src="img/shook.png">
-            </div>
-          </div>
-          <!-- PROJECT 4 -->
-          <div class="row valign-wrapper project">
-            <div class="col s6">
-              <h4>Mancala</h4>
-              <p>
-                A classic board game in which stones are moved around the board in counter-clockwise fashion. The player
-                who collects the most stones wins.
-              </p>
-              <p>Technologies Used:
-                <br/> jQuery | JavaScript | CSS | HTML
-              </p>
-              <a href="http://scottmolsness.com/mancala/"><span>Visit live site</span></a><span> | </span>
-              <a href="https://github.com/smolsn13/mancala"><span>GitHub</span></a>
-            </div>
-            <div class="col s6">
-              <img class="project-screenshot responsive-img" src="img/mancala.png">
-            </div>
-          </div>
-          <!-- PROJECT 5 -->
-          <div class="row valign-wrapper project">
-            <div class="col s6">
-              <h4>Dragons 'R Us</h4>
-              <h6>(Pair hackathon project)</h6>
-              <p>
-                This prehistoric themed e-commerce site allows was created during a 24-hour hackathon event. Users can create an
-                account, view information about dragons available for adoption and read about the history of the company.
-              </p>
-              <p>Technologies Used:
-                <br />
-                React | Node.js | Express | MongoDB | Mongoose | axios | JavaScript | CSS | HTML | Bootstrap
-              </p>
-              <a href="https://dragonsrus.herokuapp.com/"><span>Visit live site</span></a><span> | </span>
-              <a href="https://github.com/smolsn13/dragon-react"><span>GitHub</span></a>
-            </div>
-            <div class="col s6">
-              <img class="project-screenshot responsive-img" src="img/dragons.png">
-            </div>
-          </div>
+    </section>
 
+    <section id="skills" class="scrollspy">
+      <div class="container">
+        <div class="row">
+          <div class="col s12">
+              <a name="skills"></a>
+              <h2 class="center-align">SKILLS</h2>
+              <div class="section-bar"></div>
+          </div>
         </div>
-      </div>
-    </div>
-  </section>
-
-  <section id="skills" class="scrollspy">
-    <div class="container">
-      <div class="row">
-        <div class="col s12">
-            <a name="skills"></a>
-            <h2 class="center-align">SKILLS</h2>
-            <div class="header-bar"></div>
-        </div>
-      </div>
-      <!-- TECHNOLOGIES -->
-      <div class="row center-align">
-        <div class="col s12">
-            <div>
-              <p>
-                <strong>Languages:</strong>
-                <span class="skills">JavaScript</span>
-                <span class="skills">Python</span>
-                <span class="skills">CSS</span>
-                <span class="skills">HTML</span>
-              </p>
-              <p>
-                <strong>Frameworks:</strong>
-                <span class="skills">Node.js</span>
-                <span class="skills">Express</span>
-                <span class="skills">Django</span>
-              </p>
-              <p>
-                <strong>Libraries:</strong>
-                <span class="skills">React.js</span>
-                <span class="skills">Redux</span>
-                <span class="skills">Bootstrap</span>
-                <span class="skills">Materialize</span>
-                <span class="skills">JQuery</span>
-              </p>
-              <p>
-                <strong>Data:</strong>
-                <span class="skills">PostgreSQL</span>
-                <span class="skills">Sequelize</span>
-                <span class="skills">MongoDB</span>
-                <span class="skills">Mongoose</span>
-              </p>
-              <p>
-                <strong>Design:</strong>
-                <span class="skills">React-Materialize</span>
-                <span class="skills">React-Flexbox-Grid</span>
-              </p>
-              <p>
-                <strong>Additional Technologies:</strong>
-                <span class="skills">Git</span>
-                <span class="skills">GitHub</span>
-                <span class="skills">RESTful APIs</span>
-                <span class="skills">HTTP</span>
-                <span class="skills">AJAX</span>
-                <span class="skills">JSON</span>
-                <span class="skills">Heroku</span>
-                <span class="skills">Authentication</span>
-                <span class="skills">OAuth</span>
-              </p>
+        <!-- TECHNOLOGIES -->
+        <div class="row center-align">
+          <div class="col s12">
+              <div>
+                <p>
+                  <strong>Languages:</strong>
+                  <span class="skills">JavaScript</span>
+                  <span class="skills">Python</span>
+                  <span class="skills">CSS</span>
+                  <span class="skills">HTML</span>
+                </p>
+                <p>
+                  <strong>Frameworks:</strong>
+                  <span class="skills">Node.js</span>
+                  <span class="skills">Express</span>
+                  <span class="skills">Django</span>
+                </p>
+                <p>
+                  <strong>Libraries:</strong>
+                  <span class="skills">React.js</span>
+                  <span class="skills">Redux</span>
+                  <span class="skills">JQuery</span>
+                  <span class="skills">Bootstrap</span>
+                  <span class="skills">Materialize</span>
+                </p>
+                <p>
+                  <strong>Data:</strong>
+                  <span class="skills">PostgreSQL</span>
+                  <span class="skills">Sequelize</span>
+                  <span class="skills">MongoDB</span>
+                  <span class="skills">Mongoose</span>
+                </p>
+                <p>
+                  <strong>Design:</strong>
+                  <span class="skills">React-Materialize</span>
+                  <span class="skills">React-Flexbox-Grid</span>
+                </p>
+                <p>
+                  <strong>Additional Technologies:</strong>
+                  <span class="skills">Git</span>
+                  <span class="skills">GitHub</span>
+                  <span class="skills">RESTful APIs</span>
+                  <span class="skills">HTTP</span>
+                  <span class="skills">AJAX</span>
+                  <span class="skills">JSON</span>
+                  <span class="skills">Heroku</span>
+                  <span class="skills">Authentication</span>
+                  <span class="skills">OAuth</span>
+                </p>
+            </div>
           </div>
         </div>
       </div>
-    </div>
-  </section>
+    </section>
 
-  <section id="contact" class="scrollspy">
-    <div class="container">
-      <div class="row center">
-        <div class="col s12">
-            <a name="contact"></a>
-            <h2>CONTACT</h2>
-            <div class="header-bar"></div>
+    <section id="contact" class="scrollspy">
+      <div class="container">
+        <div class="row center">
+          <div class="col s12">
+              <a name="contact"></a>
+              <h2>CONTACT</h2>
+              <div class="section-bar"></div>
+          </div>
+        </div>
+        <!-- EMAIL FORM -->
+        <div class="row center">
+          <div class="col s2 empty"></div>
+          <div class="col s8">
+            <h4>Send me a message!</h4>
+            <form action="https://formspree.io/smolsness@gmail.com" method="POST">
+              <input class="text-black" type="text" name="name" placeholder="Enter your name">
+              <input class="text-black" type="email" name="_replyto" placeholder="Enter your email">
+              <textarea class="text-black" name="message-text" placeholder="Enter your message here"></textarea>
+              <input class="btn blue" type="submit" value="Send">
+            </form>
+            <!-- LINKS -->
+
+          </div>
+          <div class="col s2"></div>
         </div>
       </div>
-      <!-- EMAIL FORM -->
-      <div class="row center">
-        <div class="col s2 empty"></div>
-        <div class="col s8">
-          <h4>Send me a message!</h4>
-          <form action="https://formspree.io/smolsness@gmail.com" method="POST">
-            <input type="text" name="name" placeholder="Enter your name">
-            <input type="email" name="_replyto" placeholder="Enter your email">
-            <textarea name="message-text" placeholder="Enter your message here"></textarea>
-            <input class="btn blue" type="submit" value="Send">
-          </form>
-          <!-- LINKS -->
-
-        </div>
-        <div class="col s2"></div>
-      </div>
-    </div>
-  </section>
+    </section>
+  </main>
 
   <footer class="page-footer">
     <div class="container">
       <div class="row valign-wrapper">
-        <div class="col s4 left-align grey-text text-lighten-3">
+        <div class="col s6 m6 l4 left-align grey-text text-lighten-3">
           <p>© 2018 Scott Molsness. All Rights Reserved</p>
         </div>
-        <div class="col s4 center-align">
+        <div class="col s6 m6 l4 center-align">
           <a href="https://github.com/smolsn13">
             <i class="fab fa-github fa-3x grey-text text-lighten-3"></i>
           </a>
@@ -305,7 +307,7 @@
             <i class="fab fa-linkedin fa-3x grey-text text-lighten-3"></i>
           </a>
         </div>
-        <div class="col s4 right-align">
+        <div class="col l4 right-align hide-on-med-and-down skill-links">
           <div>
             <span><a class="grey-text text-lighten-3 footerlink" href="#about">About</a></span>
             <span><a class="grey-text text-lighten-3 footerlink" href="#mywork">My Work</a></span>
