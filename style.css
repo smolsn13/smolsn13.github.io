@@ -70,6 +70,7 @@ main, .main-nav {
   padding: 10px 20px;
   border-radius: 5px;
   margin: 200px;
+  z-index: 200;
 }
 
 .mylink:hover {
